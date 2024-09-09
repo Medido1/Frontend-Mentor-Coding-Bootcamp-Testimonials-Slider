@@ -5,7 +5,7 @@
   --Grayish_Blue: hsl(240, 18%, 77%);
 
   /* #Font */
-  --fontSize : 32px;
+  --fontSize : 28px;
   --fontFamily: "Inter", sans-serif;
 }
 /* CSS reset */
@@ -17,4 +17,68 @@
 img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
+}
+/* document styling */
+body {
+  min-height: 100vh;
+  font-family: var(--fontFamily);
+  font-size: var(--fontSize);
+  background: url(./images/pattern-bg.svg) no-repeat;
+  background-size: contain;
+  background-position: 50% 10%;
+}
+.main {
+  padding: 6rem 1.25rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+.imgContainer {
+  width: 80vw;
+  max-width: 400px;
+  position: relative;
+  margin-bottom: 4rem;
+}
+.slideBtns {
+  position: absolute;
+  left: 50%;
+  bottom: -7.5%;
+  transform: translate(-50%);
+  background-color: white;
+  border-radius: 100vmax;
+  padding: .75rem 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.btn {
+  background-color: white;
+  border: 0;
+  outline: none;
+}
+.testimonialText {
+  padding: 1rem 1.25rem;
+  background: url(./images/pattern-quotes.svg) no-repeat;
+  background-size: 60px;
+  background-position: center top;
+  color: var(--Dark_Blue);
+}
+.name, .jobTitle {
+  font-size: 1rem;
+}
+.name {
+  font-weight: 600;
+}
+.jobTitle {
+  color: var(--Grayish_Blue);
+}
+.footer {
+  background: url(./images/pattern-curve.svg) no-repeat;
+  height: 3rem;
+  background-position: 30% 0%;
 }
