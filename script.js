@@ -53,3 +53,10 @@ function updateContent(index) {
 
 nextBtn.addEventListener("click", showNext);
 previousBtn.addEventListener("click", showPrevious);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowRight") {
+    showNext();
+  } else if (e.key === "ArrowLeft"){
+    showPrevious();
+  }
+})
