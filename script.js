@@ -23,7 +23,7 @@ let index = 0;
 const nextBtn = document.querySelector(".btn.next");
 const previousBtn = document.querySelector(".btn.previous");
 const testimonialPic = document.querySelector(".testimonial_pic");
-const testTimonialText = document.querySelector(".testimonialText p");
+const testimonialText = document.querySelector(".testimonialText p");
 const name = document.querySelector(".name");
 const jobTitle = document.querySelector(".jobTitle");
 
@@ -46,7 +46,7 @@ function showPrevious() {
 function updateContent(index) {
   testimonialPic.src = testimonials[index].src;
   testimonialPic.alt = testimonials[index].alt;
-  testTimonialText.textContent = testimonials[index].text;
+  testimonialText.textContent = testimonials[index].text;
   name.textContent = testimonials[index].name;
   jobTitle.textContent = testimonials[index].jobTitle;
 }

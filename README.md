@@ -21,8 +21,8 @@ Users should be able to:
 - Navigate the slider using either their mouse/trackpad or keyboard
 
 ### Links
-- Solution URL: [Solution](https://github.com/Medido1/Frontend-Mentor-Coding-Bootcamp-Testimonials-Slider)
-- Live Site URL: [Live Site](https://medido1.github.io/ Frontend-Mentor-Coding-Bootcamp-Testimonials-Slider/)
+- Solution : [Solution](https://github.com/Medido1/Frontend-Mentor-Coding-Bootcamp-Testimonials-Slider)
+- Live Site : [Live Site](https://medido1.github.io/Frontend-Mentor-Coding-Bootcamp-Testimonials-Slider/)
 
 ### Screenshot
   # Desktop
